@@ -1,0 +1,44 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.experiences h2 {
+    color: darkkhaki;
+    text-decoration: underline
+}
+
+.competences h2 {
+    color: darkkhaki;
+    text-decoration: underline
+}
+
+img{
+    float: right;
+    width:150px;
+    height: 150px;
+}
+.formations {
+   color: darkkhaki;
+   text-decoration: underline
+}
+
+article {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    margin-top:150px;
+    margin-left: 15px;
+}
+
+.presentation h1, h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.barre{
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    background-color:black;
+    border-radius: 0px 20px 20px 0px;
+}
